@@ -18,7 +18,7 @@ public class Main11 {
 		for(int i = 1; i <= T; i++) {
 			int A = Integer.parseInt(br.readLine());
 			int B = Integer.parseInt(br.readLine());
-			bw.write("case #" + i + ": " + (A+B) + "\n");
+			bw.write("Case #" + i + ": " + (A+B) + "\n");
 		}
 		bw.flush();
 		
