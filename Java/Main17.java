@@ -23,9 +23,6 @@ public class Main17 {
 			int A = Integer.parseInt(st.nextToken());
 			int B = Integer.parseInt(st.nextToken());
 			// 만약 두 수에 0이 입력되면 저장해둔 sb를 출력한다.
-			if(A==0 && B==0) {
-				break;
-			}
 			// 두 수가 0이 아닐시 A와 B를 더한 값을 저장하고 \n 한다.
 			sb.append((A+B)).append('\n');
 		}
